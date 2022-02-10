@@ -1,0 +1,33 @@
+body{
+  background: rgba(0, 0, 0, 0.7) url("../assets/img/pexels-quintin-gellar-313782.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+  background-attachment: fixed;
+}
+.navbar, .dropdown-menu , #btn-text{
+ background-color: rgba(128, 128, 128, 0.568);
+ color: #eee !important;
+}
+#main-text{
+  margin-top: 100px;
+}
+
+.nav-link:hover , #btn-text:hover {
+  border: solid 1px greenyellow !important  ;
+  background-color: rgba(172, 255, 47, 0.445);
+  box-shadow: inset 2px 2px 4px;
+}
+.all-btn{
+ display: grid;
+ place-items: center;
+ width: 100%;
+ grid-template-columns: 1fr 1fr;
+ margin-top: 6rem;
+ margin-bottom: 6rem;
+ text-align: end;
+}
+.sub{
+  height: auto;
+}
